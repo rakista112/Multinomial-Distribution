@@ -1,0 +1,51 @@
+﻿<Window x:Class="multinomialDistWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Multinomial Distribution" Width="525" FontSize="16" SizeToContent="Height">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.ColumnSpan="1" Grid.RowSpan="1" HorizontalAlignment="Stretch" Name="stackPanel1" VerticalAlignment="Stretch" Grid.Column="0" Grid.Row="1">
+            <Label Content="X1" Height="Auto" HorizontalContentAlignment="Center" />
+            <TextBox Height="Auto" Name="txtX1" Width="Auto" Text="" FontSize="26" Margin="10" HorizontalContentAlignment="Center" />
+        </StackPanel>
+        <StackPanel Grid.ColumnSpan="1" Grid.RowSpan="1" HorizontalAlignment="Stretch" Name="stackPanel2" VerticalAlignment="Stretch" Grid.Column="1" Grid.Row="1">
+            <Label Content="X2" Height="Auto" HorizontalContentAlignment="Center" />
+            <TextBox Height="Auto" Name="txtX2" Width="Auto" Text="" FontSize="26" HorizontalContentAlignment="Center" Margin="10" />
+        </StackPanel>
+        <StackPanel Grid.ColumnSpan="1" Grid.RowSpan="1" HorizontalAlignment="Stretch" Name="stackPanel3" VerticalAlignment="Stretch" Grid.Column="2" Grid.Row="1">
+            <Label Content="X3" Height="Auto" HorizontalContentAlignment="Center" />
+            <TextBox Height="Auto" Name="txtX3" Width="Auto" HorizontalContentAlignment="Center" FontSize="26" Margin="10" />
+        </StackPanel>
+        <StackPanel Grid.ColumnSpan="1" Grid.RowSpan="1" HorizontalAlignment="Stretch" Name="stackPanel4" VerticalAlignment="Stretch" Grid.Column="0" Grid.Row="2">
+            <Label Content="P1" Height="Auto" HorizontalContentAlignment="Center" />
+            <TextBox Height="Auto" Name="txtP1" Width="Auto" FontSize="26" Margin="10" HorizontalContentAlignment="Center"/>
+        </StackPanel>
+        <StackPanel Grid.ColumnSpan="1" Grid.RowSpan="1" HorizontalAlignment="Stretch" Name="stackPanel5" VerticalAlignment="Stretch" Grid.Column="1" Grid.Row="2">
+            <Label Content="P2" Height="Auto" HorizontalContentAlignment="Center" />
+            <TextBox Height="Auto" Name="txtP2" Width="Auto" HorizontalContentAlignment="Center" FontSize="26" Margin="10" />
+        </StackPanel>
+        <StackPanel Grid.ColumnSpan="1" Grid.RowSpan="1" HorizontalAlignment="Stretch" Name="stackPanel6" VerticalAlignment="Stretch" Grid.Column="2" Grid.Row="2">
+            <Label Content="P3" Height="Auto" HorizontalContentAlignment="Center" />
+            <TextBox Height="Auto" Name="txtP3" Width="Auto" FontSize="26" HorizontalContentAlignment="Center" Margin="10" />
+        </StackPanel>
+        <StackPanel Grid.Column="1" Grid.ColumnSpan="1" Grid.RowSpan="1" Height="Auto" HorizontalAlignment="Stretch" Name="stackPanel7" VerticalAlignment="Stretch" Width="Auto">
+            <Label Content="n" Height="28" Name="label7" HorizontalContentAlignment="Center" />
+            <TextBox Height="Auto" Name="txtN" Width="Auto" Text="" FontSize="26" HorizontalContentAlignment="Center" Margin="10" />
+        </StackPanel>
+        <StackPanel Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="3" HorizontalAlignment="Stretch" Name="stackPanel8" VerticalAlignment="Stretch">
+            <Label Content="Result" Height="28" Name="label1" HorizontalContentAlignment="Center" />
+            <Label Name="lblResult" HorizontalContentAlignment="Center" FontSize="24" Margin="10" Height="40" />
+            <Button Content="Calculate" Height="35" Name="btnCalc" Width="100" Margin="10" Click="btnCalc_Click" />
+        </StackPanel>
+    </Grid>
+</Window>
