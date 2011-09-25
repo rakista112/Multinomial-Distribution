@@ -41,9 +41,9 @@ namespace multinomialDistWpf
                                   float p1, float p2, float p3)
         {
             int productOfFacs = fac(x1) * fac(x2) * fac(x3);
-            float productOfProbs = p1 * p2 * p3;
+            float productOfProbs = (float)(Math.Pow(p1, x1) * Math.Pow(p2, x2) * Math.Pow(p3, x3));
 
-            float result = (n / productOfFacs) * productOfProbs;
+            float result = (fac(n) / productOfFacs) * productOfProbs;
             return result;
 
         }
