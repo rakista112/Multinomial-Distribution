@@ -7,12 +7,12 @@ using System.Windows;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("multinomialDistWpf")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Multinomial Distribution Calculator")]
+[assembly: AssemblyDescription("Calculates Multinomial Distribution")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Rawr")]
-[assembly: AssemblyProduct("multinomialDistWpf")]
-[assembly: AssemblyCopyright("Copyright © Rawr 2011")]
+[assembly: AssemblyCompany("Ray John E. Alovera")]
+[assembly: AssemblyProduct("Multinomial Distribution Calculator")]
+[assembly: AssemblyCopyright("Copyright © Ray John E. Alovera 2011")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

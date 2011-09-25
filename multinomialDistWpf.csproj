@@ -8,8 +8,8 @@
     <ProjectGuid>{33B60299-AA6D-4B33-B260-92AE628647BC}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>multinomialDistWpf</RootNamespace>
-    <AssemblyName>multinomialDistWpf</AssemblyName>
+    <RootNamespace>multinomialDistCalc</RootNamespace>
+    <AssemblyName>multinomialDistCalc</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
